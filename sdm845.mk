@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
-    vendor.qti.hardware.perf@2.0.vendor \
     android.hardware.power@1.2 \
     android.hardware.power@1.2.vendor \
     android.hardware.power.stats@1.0-service.xiaomi
