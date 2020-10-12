@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hidl.allocator@1.0 \
     android.hidl.allocator@1.0.vendor \
+    disable_configstore \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
     libdisplayconfig.qti \
