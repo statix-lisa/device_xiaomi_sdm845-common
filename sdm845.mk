@@ -506,6 +506,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.xiaomi_sdm845
 
+# GcamGO
+PRODUCT_PACKAGES += \
+    GCam
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
