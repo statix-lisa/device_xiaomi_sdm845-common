@@ -345,6 +345,10 @@ PRODUCT_COPY_FILES += \
 # msm_irqbalance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+    
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor:64
 
 # Native libraries whitelist
 PRODUCT_COPY_FILES += \
