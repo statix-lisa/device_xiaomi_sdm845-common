@@ -357,9 +357,8 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
     android.system.net.netd@1.0.vendor \
     android.system.net.netd@1.1 \
-    android.system.net.netd@1.1.vendor \
-    netutils-wrapper-1.0
-
+    android.system.net.netd@1.1.vendor 
+    
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
