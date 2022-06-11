@@ -123,8 +123,8 @@ vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
-# CNE - from pyxis - RKQ1.200826.002/21.3.31
--vendor/app/CneApp/CneApp.apk|7ac78e7475271b6626cd6592d170b218f1bb5e8c
+# CNE - PNX - RKQ1.200906.002
+-vendor/app/CneApp/CneApp.apk|c6cc677ff82cab39e4029c7d6419ab6e7783eca5
 vendor/bin/cnd|a2c8edcbcc58dbe0092cd38efd0f5540ee5530e4
 vendor/etc/cne/profileSlm.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/cne/slm.conf|089de5d9382331791088edd9b4bce13bfa5ea336
@@ -159,7 +159,7 @@ vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|eb11e72a91439180816e9a1d
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
 vendor/lib64/libcne.so|6df8c1ea8b00c46eaaabeffdfcf2323afff20094
 vendor/lib64/libcneapiclient.so|1e7564af8f912b6b9877666db755d0d52a4e6c4f
-vendor/lib64/libcneoplookup.so|e15856f5d1e531f0cf53aacc304ae521d4a326f8
+vendor/lib64/libcneoplookup.so|14aedb62fb4e0171581347dd2dbadf9395bdd36a
 vendor/lib64/libcneqmiutils.so|a984bc760db218395bd663dcb83a28d4c76f97c6
 vendor/lib64/libwms.so|bab86eca3cf21c5150952dafe07ad9721aaaffe7
 vendor/lib64/libwqe.so|0a97099aa12cc8837b8fe7d532cbe3770b4d3edc
