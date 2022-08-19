@@ -41,6 +41,9 @@ function blob_fixup() {
         system_ext/lib64/libdpmframework.so)
             sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
             ;;
+        vendor/lib/camera/components/com.qti.node.watermark.so)
+            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            ;;
     esac
 }
 
@@ -84,7 +87,6 @@ fi
 if [ -z "${ONLY_TARGET}" ]; then
     # Initialize the helper for common device
     setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true "${CLEAN_VENDOR}"
-
     extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
