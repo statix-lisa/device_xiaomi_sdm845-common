@@ -666,6 +666,7 @@ vendor/lib64/libqmi_client_qmux.so|3ec23f377161bb287625e52714190faa6ddf2e1e
 vendor/lib64/libqmi_common_so.so|13364998f37a22ed9b526af9afe899ba27ea8150
 vendor/lib64/libqmi_csi.so|151585196b08a2b42389dab1461314ba0c4844a1
 vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
+vendor/lib64/libqminvapi.so
 vendor/lib64/libqmiservices.so|5b62adefda77de5e3e4b7b1d2db8a87ebdc54b23
 vendor/lib/libdiag.so|c6f01ca626022999908475e8dd83aa0367111885
 vendor/lib/libdsi_netctrl.so|1274992fd2a5e1df0585e0028edb18e899438657
@@ -682,6 +683,7 @@ vendor/lib/libqmi_client_qmux.so|9d49b4e43194d5351578ffc79f3b670ad8148cea
 vendor/lib/libqmi_common_so.so|debcc5644bd7b459f98b3e743db694938c791b1a
 vendor/lib/libqmi_csi.so|f894b371222abc94d759bb0260bcb44f3b067bee
 vendor/lib/libqmi_encdec.so|42f1d3da38170a5a69edaeb459db8425f455c625
+vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so|4b8aece94c02b56474b6044e4bdef749a4d91822
 
 # RIL - from LA.QSSI.12.0.r1-05100-qssi.0
