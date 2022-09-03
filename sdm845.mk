@@ -471,10 +471,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
-# GoogleConfig
-PRODUCT_PACKAGES += \
-    GoogleConfigOverlay
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
