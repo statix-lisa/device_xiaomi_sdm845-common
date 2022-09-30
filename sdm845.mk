@@ -135,7 +135,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.0.vendor \
     audio.bluetooth.default \
-    libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Camera
@@ -198,7 +197,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libqdMetaData \
     libtinyxml \
-    libtinyxml.vendor \
     memtrack.sdm845 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
@@ -429,7 +427,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
-    libjson.vendor \
     librmnetctl
 
 # RenderScript
