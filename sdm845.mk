@@ -512,10 +512,6 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0 \
     android.hardware.weaver@1.0.vendor
 
-# GcamGO
-PRODUCT_PACKAGES += \
-    GCam
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
