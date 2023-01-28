@@ -453,7 +453,11 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sdm845
+
 
 # Telephony
 PRODUCT_PACKAGES += \
