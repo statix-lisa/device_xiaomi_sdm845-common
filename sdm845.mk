@@ -14,6 +14,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+DEVICE_PATH := device/xiaomi/beryllium
+
 # Netd
 PRODUCT_PACKAGES += \
     libandroid_net \
@@ -539,8 +541,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# Kernel
-TARGET_PREBUILT_KERNEL := device/xiaomi/sdm845-common/prebuilt/Image.gz-dtb
+# Kernel (Prebuilt)
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/Image.gz-dtb
+
 PRODUCT_COPY_FILES += \
     $(TARGET_PREBUILT_KERNEL):kernel
 
